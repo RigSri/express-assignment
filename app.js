@@ -1,6 +1,6 @@
 const express = require("express");
 const morgan = require("morgan");
-const logger = require("./middleware/logger");
+const logger = require("./src/middleware/logger");
 
 const app = express();
 const PORT = 3000;
